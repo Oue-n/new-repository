@@ -1,0 +1,64 @@
+0,status,1,VILLAGER,ALIVE,hellowolf
+0,status,2,SEER,ALIVE,fanfan
+0,status,3,POSSESSED,ALIVE,tomato
+0,status,4,VILLAGER,ALIVE,takeda
+0,status,5,WEREWOLF,ALIVE,HALUemon
+0,divine,2,4,HUMAN
+1,status,1,VILLAGER,ALIVE,hellowolf
+1,status,2,SEER,ALIVE,fanfan
+1,status,3,POSSESSED,ALIVE,tomato
+1,status,4,VILLAGER,ALIVE,takeda
+1,status,5,WEREWOLF,ALIVE,HALUemon
+1,talk,0,0,2,COMINGOUT Agent[02] SEER
+1,talk,1,0,5,COMINGOUT Agent[05] SEER
+1,talk,2,0,3,COMINGOUT Agent[03] SEER
+1,talk,3,0,4,Skip
+1,talk,4,0,1,VOTE Agent[04]
+1,talk,5,1,2,DIVINED Agent[05] WEREWOLF
+1,talk,6,1,4,VOTE Agent[02]
+1,talk,7,1,1,Skip
+1,talk,8,1,3,DIVINED Agent[04] WEREWOLF
+1,talk,9,1,5,DIVINED Agent[02] WEREWOLF
+1,talk,10,2,3,VOTE Agent[04]
+1,talk,11,2,2,VOTE Agent[05]
+1,talk,12,2,4,VOTE Agent[05]
+1,talk,13,2,1,VOTE Agent[05]
+1,talk,14,2,5,VOTE Agent[02]
+1,talk,15,3,2,ESTIMATE Agent[05] POSSESSED
+1,talk,16,3,4,Skip
+1,talk,17,3,3,Skip
+1,talk,18,3,5,VOTE Agent[02]
+1,talk,19,3,1,VOTE Agent[02]
+1,talk,20,4,4,VOTE Agent[05]
+1,talk,21,4,5,VOTE Agent[02]
+1,talk,22,4,1,VOTE Agent[05]
+1,talk,23,4,3,Skip
+1,talk,24,4,2,Skip
+1,talk,25,5,4,Skip
+1,talk,26,5,5,Over
+1,talk,27,5,3,Over
+1,talk,28,5,1,Skip
+1,talk,29,5,2,Skip
+1,talk,30,6,5,Over
+1,talk,31,6,2,Over
+1,talk,32,6,4,Skip
+1,talk,33,6,3,Over
+1,talk,34,6,1,Skip
+1,talk,35,7,4,Over
+1,talk,36,7,2,Over
+1,talk,37,7,3,Over
+1,talk,38,7,5,Over
+1,talk,39,7,1,Over
+1,vote,1,5
+1,vote,2,5
+1,vote,3,4
+1,vote,4,5
+1,vote,5,1
+1,execute,5,WEREWOLF
+1,divine,2,3,HUMAN
+2,status,1,VILLAGER,ALIVE,hellowolf
+2,status,2,SEER,ALIVE,fanfan
+2,status,3,POSSESSED,ALIVE,tomato
+2,status,4,VILLAGER,ALIVE,takeda
+2,status,5,WEREWOLF,DEAD,HALUemon
+2,result,4,0,VILLAGER
